@@ -8,16 +8,22 @@ PowerShell is a task automation and configuration management program from Micros
   >Get-Command *Service* // cmdlets that contain the word ‘service’
 ```
 * Get-Help
-```> Get-Help Restart-Service```
+```
+> Get-Help Restart-Service
+```
 * Variable
-``` >$a=30```
+```
+>$a=30
+```
 * Array
-  ``` >$nameArray = @("john", "Joe", "Mary")
-	>$nameArray[0]
-  ```
+```
+>$nameArray = @("john", "Joe", "Mary")
+>$nameArray[0]
+```
 * Hashtable
-  ```> $user=@{FirstName="John"; LastName="Smith"; MiddleInitial="J"; Age=40}
-	    > $User.LastName
+```
+> $user=@{FirstName="John"; LastName="Smith"; MiddleInitial="J"; Age=40}
+> $User.LastName
 ```
 ```shell
 >PSVersionTable
