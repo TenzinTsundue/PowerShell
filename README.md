@@ -10,7 +10,7 @@ PowerShell is a task automation and configuration management program from Micros
 	>$nameArray[0]
 * Hashtable > $user=@{FirstName="John"; LastName="Smith"; MiddleInitial="J"; Age=40}
 	    > $User.LastName
-
+```shell
 >PSVersionTable
 >PSVersionTable.PSVersion
 
@@ -21,5 +21,5 @@ PowerShell is a task automation and configuration management program from Micros
 >Get-Process //list running processes
 >Get-ChildItem //Shows files and directories (similar to dir)
 >Set-Location //Changes the current directory (similar to cd)
-
+```
 Link: https://learn.microsoft.com/en-us/training/paths/get-started-windows-powershell/
